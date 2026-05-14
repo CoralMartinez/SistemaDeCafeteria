@@ -23,7 +23,6 @@ const bebida2 = {
 };
 
 
-
 const postre1 = {
   id: "03",
   nombre: "Pastel de chocolate",
