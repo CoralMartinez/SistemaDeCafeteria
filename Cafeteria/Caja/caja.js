@@ -1,5 +1,5 @@
 // ==============================
-// ☕ SISTEMA DE CAJA CAFETERÍA
+//  SISTEMA DE CAJA CAFETERÍA
 // ==============================
 
 const pedidos = [
@@ -23,7 +23,7 @@ const pedidos = [
 // MOSTRAR PRODUCTOS COMPRADOS
 
 console.log("══════════════════════════════");
-console.log("🧾 TICKET DE COMPRA");
+console.log("TICKET DE COMPRA");
 console.log("══════════════════════════════");
 
 let total = 0;
@@ -44,7 +44,7 @@ for(let i = 0; i < pedidos.length; i++){
 // MOSTRAR TOTAL
 
 console.log("══════════════════════════════");
-console.log("💰 TOTAL A PAGAR: $" + total);
+console.log(" TOTAL A PAGAR: $" + total);
 console.log("══════════════════════════════");
 
 
@@ -52,14 +52,14 @@ console.log("══════════════════════�
 
 let pagoCliente = 200;
 
-console.log("💵 Pago recibido: $" + pagoCliente);
+console.log(" Pago recibido: $" + pagoCliente);
 
 
 // CALCULAR CAMBIO
 
 let cambio = pagoCliente - total;
 
-console.log("🪙 Cambio: $" + cambio);
+console.log(" Cambio: $" + cambio);
 
-console.log("\n☕ Gracias por su compra");
-console.log("✨ Vuelva pronto ✨");
+console.log("\n Gracias por su compra");
+console.log(" Vuelva pronto ");
